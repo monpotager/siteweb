@@ -48,7 +48,7 @@
           <form action="login_verify.php" method="post">
             <div class="input-field col s12">
               <i class="material-icons prefix">email</i>
-              <input id="email" name="email" type="email" value="" class="validate <?php if ('email' == $_GET['error']) { echo 'invalid'; } ?>" required>
+              <input id="email" name="email" type="email" value="" class="validate" required>
               <label for="email" class="">Courriel</label>
             </div>
 
